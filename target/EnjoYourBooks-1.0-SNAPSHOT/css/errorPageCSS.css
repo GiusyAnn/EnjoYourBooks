@@ -1,0 +1,5 @@
+@charset "ISO-8859-1";
+body {background-image:url(../Img/Sfocato.jpg);background-repeat:repeat; font-family:Verdana, Geneva, Tahoma, sans-serif ; }
+.table{margin-top:300px; margin-left:500px; display: table; padding: 35px;	padding-left:5%; padding-right:5%;background-color: rgba(242, 255, 255, 0.7); border-width: 1px;border-radius: 10%;	float: left;resize: vertical; }
+.submit {background-color:rgba(10, 121, 108, 0.747);color: white;padding: 7px 20px; text-align: center; display: inline-block; font-size: 16px; border-radius: 7px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor:pointer;}
+.submit:hover{background-color: rgba(255, 255, 255, 0.884);	color: #0B7F71;	}

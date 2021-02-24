@@ -1,0 +1,173 @@
+@CHARSET "ISO-8859-1";
+
+body {	
+  font-family: Verdana;
+  padding: 10px;
+  background-color:#f1f1f1;
+}
+.txtar{ resize: none; height:75px; width: 100%;  font-size:15px; border: none;  font-family:Verdana, Geneva, Tahoma, sans-serif}
+
+.comment{font-family: Verdana; background-color: white; color: black; border: inset; border-radius: 5px; line-height: 1%}
+.comment h4 { margin-left:40px; font-style: italic; font-weight: lighter;}
+.comment b{color:#0B7F71;} 
+.comment h5{ margin-left:40px; } p{margin-left:20px;}
+.imgProfil{border:inherit; border-radius: 25px; width: 55px; height: 55px; float:left;}
+.det{border:none; background-color: #f1f1f1; cursor:pointer; font-family: Verdana, Geneva, Tahoma, sans-serif}
+.heart{font-size:48px; border:none;}
+.submit {background-color:rgba(10, 121, 108, 0.747);color: white;padding: 7px 20px; text-align: center; display: inline-block; font-size: 16px; border-radius: 7px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor:pointer;}
+.submit:hover{background-color: rgba(255, 255, 255, 0.884);	color: #0B7F71;	}
+.num{
+	border:inset 2px;
+	border-color: rgba(10, 121, 108, 0.4);
+	border-radius:9px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor:pointer;
+	text-align:center;
+	width: 50px;
+	height: 25px;
+}
+.titolo{
+	color: #0B7F71;
+	font-family: Baskerville, Melina, Kis, Century OldStyle, Bookman Old Style;
+	font-size: 45px;
+	
+	}
+
+/* Left column */
+.column {   
+  float: left;
+  width: 96%;
+  background-color: #f1f1f1;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+/*posto per mettere la copertina*/
+ #copertina {
+  position: cover;
+  border: inset;
+  border-color: rgba(10, 121, 108, 0.4);
+  width: 300px;
+  height:425px;
+}
+.titut{margin-top:100px; color:white; font-family: Baskerville, Melina, Kis, Century OldStyle, Bookman Old Style; font-style: italic;}
+.aut{margin-top:10px; color:white;}
+.ut{
+	background-image:url("../Img/boooooks.jpg");
+	background-repeat:no-repeat;
+	text-align:center;
+	width: 300px;
+  	height:425px;
+}
+/* Add a card effect for articles */
+.leftcard {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+.rightcard{
+  background-color:#f1f1f1;
+  padding: 40px;
+  margin-top: 20px;
+  margin-right:5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";	
+  display: table;
+  float: left; 
+  clear: both;
+}
+.row{
+	margin-top:50px;
+	background-color: #f1f1f1;
+}
+
+/*EFFETTI PER LA LETTURA DELLA TRAMA*/
+
+/*solo lo stile dei bottoni che dividono le varie sessioni*/
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: inset rgba(10, 121, 108, 0.4);
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+/*Cambia il colore quando la sezione è aperta oppure quando ci passi sopra */
+.active, .accordion:hover {
+  background-color: rgba(10, 121, 108, 0.4);
+  color:white; 
+}
+
+/*Nasconde le scritte all'interno delle sezioni */
+.panel {
+  background-color: rgba(10, 121, 108, 0.6);
+  padding: 0 18px;
+  display: none;
+  color:white;
+  overflow: hidden;  
+  border-radius:5px;
+}
+/*--! FINE EFFETTI PER LA LETTURA DELLA TRAMA*/
+
+
+
+/*Effetti per i commenti*/
+
+
+
+
+/*Frecce in tutte le direzioni:*/
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/*--! Fine frecce*/
+
+
+/*Per far inserire i commenti dagli utenti, da fare il css*/
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .tp a {
+    float: right;
+    width: 100%;
+  }
+}

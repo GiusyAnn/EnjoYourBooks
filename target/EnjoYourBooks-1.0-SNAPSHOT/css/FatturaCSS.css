@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+div {
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 10px;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: #0b7f71;
+  text-align: right;
+  margin-right: 20px;
+}
+
+p.end {
+  text-indent: 50px;
+  text-align: end;
+  letter-spacing: 2px;
+  padding-right:20px;
+}
+
+p.start{
+  text-align: start;
+  letter-spacing: 2px;
+  padding-top:70px;
+  padding-left:20px;
+}
+
+a {
+  text-decoration: none;
+  color: #008080;
+}
+
+
+/*CSS per le tabelle!*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden; 
+}
+
+th{
+  background-color: #0b7f71;
+  opacity: 0.8;
+}
+
+
+/*Per la visualizzazione del totale*/
+tfoot{
+	text-align:right;
+}
+
+img{
+	height: 190px;
+	width: 190px;
+	float:left;
+	margin-top:-60px; 
+  margin-left:10px;
+}
+
+/*Per rendere la tabella responsive*/
+.responsive td, th {
+	min-width: 685;
+	width: 10%;
+	border-bottom: 1px solid grey;
+	word-break: break-all;
+	text-align: center;
+	padding: 1%;
+}
+
+

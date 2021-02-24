@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body {background-image:url(../Img/Sfocato.jpg);background-repeat: no-repeat;font-family:Verdana, Geneva, Tahoma, sans-serif ; } /*'FontAwesome'!important*/
+b{text-align: center; font-size: 24px; text-shadow: 3px 2px  #0B7f71 ; color:rgb(242, 255, 255);}
+.submit {background-color:rgba(10, 121, 108, 0.747);color: white;padding: 7px 20px; text-align: center; display: inline-block; font-size: 16px; border-radius: 7px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor:pointer;}
+.submit:hover{background-color: rgba(255, 255, 255, 0.884);	color: #0B7F71;	}
+.table{margin-top:35px!important; display: table; padding: 35px;	padding-left:5%; padding-right:5%;background-color: rgba(242, 255, 255, 0.7); border-width: 1px;border-radius: 5%;	float: left;resize: vertical; }
+.ft{backgorund-color:#0B7F71; padding-top:10px!important;padding-bottom:16px!important;	text-align:center!important; margin-bottom:0%;margin-top:10%;} 
+.tableRow {display: table-cell;display: table-row;padding: 25px; }
+.tableRow p {display: table-cell;vertical-align: center;padding: 3px;}
+.top{padding-top:-25px!important}
+.center{align:center!important};
+	
+/*icone vicino user e password*/
+* {box-sizing: border-box;}
+.input-container {display: -ms-flexbox; /* IE10 */display: flex; width: 100%; margin-bottom: 15px;}
+.icon { padding: 10px;background: rgba(10, 121, 108, 0.747);color: white; min-width: 50px; text-align: center; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius:5%}
+.input-field { width: 100%; padding: 10px; outline: none; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius:5%; }
+.input-field:focus {border: 2px solid rgba(10, 121, 108, 0.747);}
+
+
